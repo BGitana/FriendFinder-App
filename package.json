@@ -1,0 +1,29 @@
+{
+  "name": "friendfinder-app",
+  "version": "1.0.0",
+  "description": "FullStack mobile first with Node and Express Servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BGitana/FriendFinder-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BGitana/FriendFinder-App/issues"
+  },
+  "homepage": "https://github.com/BGitana/FriendFinder-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "node": "^13.6.0",
+    "path": "^0.12.7",
+    "server": "^1.0.22"
+  },
+  "devDependencies": {}
+}

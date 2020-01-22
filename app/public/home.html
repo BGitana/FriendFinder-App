@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Friend Finder App</title>
+
+	<!-- Link to the jQuery Library -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	
+	<!-- Including Font Awesome Icons -->
+	<script src="https://use.fontawesome.com/b38c8ed4c7.js"></script>
+
+  <!-- Link to reset stylesheet -->
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+  <!-- Compiled and minified Materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+		
+  <!-- <link rel="stylesheet" href="css/style.css"> -->    
+
+<style>
+nav .nav-wrapper {
+	height: 90px;
+	box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header {
+    height: 120px;
+}
+
+main h1 {
+	font-weight: bold;
+	font-size: 6ex;
+	text-shadow: 1px 1px 1px rgb(109, 108, 108), 3px 3px 5px rgb(33, 33, 34);
+}
+
+ main h2 {
+	font-weight: 100;
+	font-size: 4ex;
+	text-shadow: 1px 1px 1px rgb(29, 28, 28), 3px 3px 5px rgb(33, 33, 34);
+}
+
+h5 {
+	font-weight: 80;
+	font-size: 1.8ex;
+	text-shadow: 1px 1px 1px rgb(29, 28, 28), 3px 3px 5px rgb(33, 33, 34);
+			   padding-top: 0.2rem;
+}
+
+p {
+	font-weight: 400;
+	font-size: 2ex;
+	text-shadow: 1px 1px 1px rgb(29, 28, 28), 3px 3px 5px rgb(33, 33, 34);
+}
+
+nav .brand-logo {
+	font-weight: 250;
+	font-size: 2.5rem;
+	padding-top: 1rem;
+	text-shadow: 1px 1px 1px rgb(110, 27, 27), 3px 3px 5px rgb(68, 26, 34);
+}
+
+.mainpanel{
+	box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mainpanel-content {
+    margin: 50px;
+}
+
+.btn {
+	text-shadow: 1px 1px 1px rgb(110, 27, 27), 3px 3px 5px rgb(68, 26, 34);
+	box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-weight: 350;
+	margin-top: 3rem;
+}
+
+footer.page-footer {
+	box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-top: 0;
+}
+
+p a:hover {
+   background-color: #ff1744 !important;
+}
+</style>
+</head>
+
+<body class="#424242 grey darken-3">
+
+	<header>
+		<nav>
+			<div class="nav-wrapper #ff1744 red accent-3">
+				<a href="/" class="brand-logo center #ffffff white-text ">FriendFINDER</a>	
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container center">
+			<div class="row #212121 grey darken-4">
+				<div class="col s12 z-depth-5 mainpanel">
+					<div id="mainpanel-content">
+						<h1>Find Your Match<i class="material-icons ">favorite</i></h1>
+						<div class="divider"></div>
+						<h2 class="csshook #bdbdbd grey-text text-lighten-1">Answer a few basic questions.</h2>
+						<h2 class="csshook #bdbdbd grey-text text-lighten-1">Let's see who you are matched with!</h2>
+						<a href="/survey">
+							<button class="btn waves-effect waves-light #ff1744 red accent-3" type="submit" name="action">Go to Survey
+								<i class="large material-icons right">send</i>
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="page-footer #212121 grey darken-4">	
+		<div class="container">		
+			<div class="row">		
+				<div class="col l6 s12 center">		
+						  <p>
+			                 <a class="#bdbdbd grey-text text-lighten-1" href="/api/friends">API Friends List</a> |||
+							<a class="#bdbdbd grey-text text-lighten-1"
+							  target="_blank"
+							  href="https://github.com/BGitana/FriendFinder.git"
+							  >GitHub Repo</a> |||
+							  <a class="#bdbdbd grey-text text-lighten-1"
+							  href="/survey"
+								>Survey</a>
+						  </p>
+						</div>
+				<div class="col l4 offset-l2 s12 center">
+					<h5 class="#bdbdbd grey-text text-lighten-1">FRIENDfinder APP © 2019 Copyright Bgitana</h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
