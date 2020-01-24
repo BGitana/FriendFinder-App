@@ -42,7 +42,7 @@ FriendFINDER is a mobile first full stack node app deployed on Heroku. Data is s
 ### Tech Used
 
 * [Nodejs](https://nodejs.org/en/) - run-time environment to build a back-end server
-* [Expressjs](https://expressjs.com/) - framework to build back end routing 
+* [Express.js](https://expressjs.com/) - framework to build back end routing 
 * [Materialize](https://materializecss.com/) - component library for a front-end responsive framework
 * [jQuery](https://jquery.com/) - JavaScript library for DOM traversal and manipulation
 * [HTML](https://html.com/) - create pages/documents to be displayed in a web browser
