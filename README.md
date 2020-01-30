@@ -9,7 +9,7 @@ Welcome to [FriendFINDER](https://dry-badlands-26968.herokuapp.com/). Enjoy!
 
 ### Commands
 
-This app is setup to listen on a Heroku default port. In the absence of Heroku, it sets the port to 8080 instead. Since no database management is required, setup should be a simple matter of simply uploading the files and having the server listen for a request.	
+This app is setup to listen on a Heroku default port. In the absence of Heroku, it sets the port to 8000 instead. Since no database management is required, setup should be a simple matter of simply uploading the files and having the server listen for a request.	
 ```
 node server.js
 ```
